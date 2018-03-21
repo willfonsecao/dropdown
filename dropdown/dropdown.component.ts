@@ -1,6 +1,5 @@
 import { Component, Input, forwardRef } from '@angular/core';
 import { NG_VALUE_ACCESSOR } from '@angular/forms';
-declare var $: any;
 
 export const CUSTOM_INPUT_CONTROL_VALUE_ACCESSOR: any = {
   provide: NG_VALUE_ACCESSOR,
@@ -51,18 +50,12 @@ export class DropdownComponent {
     }
   }
 
-  closeFromInside() {
-    $('.wrapper-dropdown')[0].className = $('.wrapper-dropdown')[0].className.replace('active', '');
-  }
-
   selectOption(option) {
     this.value = option;
-    this.closeFromInside();
   }
 
   selectPlaceHolder() {
     this.value = null;
-    this.closeFromInside;
   }
 
   toggle() {
