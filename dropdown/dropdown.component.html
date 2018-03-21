@@ -1,6 +1,6 @@
 <div class="wrapper-dropdown" tabindex="1" 
      [ngClass]="{'active' : active}"
-     (click)="toggle()" (blur)="toggle()" >{{displayValue()}}
+     (click)="toggle()" (blur)="active = false" >{{displayValue()}}
 
   <ul class="dropdown">
     <li>
