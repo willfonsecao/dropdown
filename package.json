@@ -1,0 +1,42 @@
+{
+  "name": "dropdown",
+  "version": "1.0.0",
+  "description": "this is a full responsive dropdown for angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willfonsecao/dropdown.git"
+  },
+  "dependencies": {
+    "@angular/animations": "^4.2.4",
+    "@angular/common": "^4.2.4",
+    "@angular/compiler": "^4.2.4",
+    "@angular/core": "^4.2.4",
+    "@angular/forms": "^4.2.4",
+    "@angular/http": "^4.2.4",
+    "@angular/platform-browser": "^4.2.4",
+    "@angular/platform-browser-dynamic": "^4.2.4",
+    "core-js": "^2.4.1",
+    "date-fns": "^1.28.5",
+    "node-sass": "^4.5.3",
+    "popper.js": "^1.12.5",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.14"
+  },
+  "keywords": [
+    "dropdown",
+    "dropdown",
+    "responsive",
+    "dropdown",
+    "angular2"
+  ],
+  "author": "Will Fonseca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willfonsecao/dropdown/issues"
+  },
+  "homepage": "https://github.com/willfonsecao/dropdown#readme"
+}

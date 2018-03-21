@@ -1,0 +1,16 @@
+<div class="wrapper-dropdown" tabindex="1" 
+     [ngClass]="{'active' : active}"
+     (click)="toggle()" (blur)="toggle()" >{{displayValue()}}
+
+  <ul class="dropdown">
+    <li>
+      <a *ngIf="placeHolder != ''" (click)="selectPlaceHolder()">
+        {{placeHolder}}
+      </a>
+    </li>
+    <li *ngFor="let option of options">
+      <a (click)="selectOption(option)">
+       {{displayAttribute != null ? option[displayAttribute] : option}}</a>
+    </li>
+  </ul>
+</div>
